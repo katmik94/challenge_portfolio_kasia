@@ -8,7 +8,7 @@ Moim celem jest wykorzystanie zdobytej podczas projektu wiedzy i powstałego por
 ## Subtask 4
 <b>1. Do czego służy aplikacja?</b>
 
-Aplikacja służy skautom do przeglądania zawodników i śledzenia ich umiejętności, do sprawdzania ich gry podczas meczów. 
+Aplikacja służy skautom do dodawania, przeglądania zawodników i śledzenia ich umiejętności, do sprawdzania ich poziomu gry podczas meczów. Korzystają przy tym z raportów, które można wygenerować dla zawodników.
 
 <b>2. Funkcjonalności aplikacji:</b>
 - logowanie do systemu oraz wylogowanie się z systemu - ta funkcja jest intuicyjna, logowanie jest proste a opcja wylogowania widoczna.
@@ -34,11 +34,11 @@ Wygląd aplikacji jest bardzo prosty, wręcz zbyt prosty (wygląda na stronę sp
 
 Aplikacja pod wieloma względami nie jest intuicyjna, po pierwszym zapoznaniu się z aplikacją ciężko się było zorientować, gdzie są poszczególne opcje. 
 
-Jak wcześniej pisałam w podpunkcie 2, samo dodanie meczu czy wygenerowanie raportu nie było trudne, ale już znalezienie kategorii mecze i raporty nie było oczywiste. 
+Jak wcześniej pisałam w podpunkcie 2, samo dodanie meczu czy wygenerowanie raportu nie było trudne, ale już znalezienie kategorii "Mecze" i "Raporty" nie było oczywiste. 
 
-Tak samo dodanie nowego gracza jest średnio intuicyjne, znajduje się ono co prawda na głównej stronie, ale w kategorii "linki pomocnicze" co według mnie mnie sugeruje, że nie jest to jedna z najważniejszych funkcjonalności aplikacji. 
+Tak samo dodanie nowego gracza jest średnio intuicyjne, znajduje się ono co prawda na głównej stronie, ale w kategorii "linki pomocnicze" co według mnie może błędnie sugerować, że nie jest to jedna z najważniejszych funkcjonalności aplikacji. 
 
-We wszystkich trzech podstronach (Gracze, Mecze, Raporty) brakuje opcji przejrzenia informacji bez konieczności edycji. Na przykładzie gracza: chcąc przejrzeć informacje o zawodniku (wzrost, rok urodzenia, osiągnięcia, poziom rozgrywek itd.) jednocześnie włącza się edycja zawodnika co może użytkownika aplikacji dezorientować. Dodatkowo "przymusowa" edycja sprawia, że użytkownik może przez przypadek zmienić lub wprowadzić nowe dane o zawodniku, które są błędne itp.
+We wszystkich trzech podstronach (Gracze, Mecze, Raporty) brakuje opcji przejrzenia informacji bez konieczności edycji. Na przykładzie gracza: chcąc przejrzeć informacje o zawodniku (wzrost, rok urodzenia, osiągnięcia, poziom rozgrywek itd.) jednocześnie włącza się edycja zawodnika, co może użytkownika aplikacji dezorientować. Dodatkowo "przymusowa" edycja sprawia, że użytkownik może przez przypadek zmienić lub wprowadzić nowe dane o zawodniku, które są błędne itp. Dokładnie tak samo jest w przypadku ppreglądania meczu, czy przeglądania raportu.
 
 Najmniej intuicyjne jest dodawanie akcji, które miały miejsce podczas meczu (opcja "rozpocznij mecz"). Ze względu na bardziej złożony sposób dodania informacji, użytkownik bez instrukcji może mieć trudności z tą opcją.
 
@@ -88,5 +88,5 @@ Możliwe jest ustawienie więcej niż 4 połów rozgrywki, co nie jest realną i
 
 <b>Gracze:</b>
 
-Opcja sortowania, opcja pobrania CSV, opcja druku, ustawiania widoczności kolumn oraz filtrowanie tabeli są w języku angielskim, pomimo tego, że wybrany jest język polski
+Opcja sortowania, opcja pobrania CSV, opcja druku, ustawiania widoczności kolumn oraz filtrowanie tabeli są w języku angielskim, pomimo tego, że wybrany jest język polski.
 
