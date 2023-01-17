@@ -34,13 +34,35 @@ Wygląd aplikacji jest bardzo prosty, wręcz zbyt prosty (wygląda na stronę sp
 
 Aplikacja pod wieloma względami nie jest intuicyjna, po pierwszym zapoznaniu się z aplikacją ciężko się było zorientować, gdzie są poszczególne opcje. 
 
-Jak wcześniej pisałam w podpunkcie 2., samo dodanie meczu czy wygenerowanie raportu nie było trudne, ale już znalezienie kategorii mecze i raporty nie było oczywiste. 
+Jak wcześniej pisałam w podpunkcie 2, samo dodanie meczu czy wygenerowanie raportu nie było trudne, ale już znalezienie kategorii mecze i raporty nie było oczywiste. 
 
 Tak samo dodanie nowego gracza jest średnio intuicyjne, znajduje się ono co prawda na głównej stronie, ale w kategorii "linki pomocnicze" co według mnie mnie sugeruje, że nie jest to jedna z najważniejszych funkcjonalności aplikacji. 
 
-We wszystkich trzech podstronach (Gracze, Mecze, Raporty) brakuje opcji przejrzenia informacji bez konieczności edycji. Na przykładzie gracza: chcąc przejrzeć informacje o zawodniku (wzrost, rok urodzenia, osiągnięcia, poziom rozgryweg itd.) jednocześnie włącza się edycja zawodnika co może użytkownika aplikacji dezorientować. Dodatkowo "przymusowa" edycja sprawia, że użytkownik może przez przypadek zmienić lub wprowadzić nowe dane o zawodniku, które są błędne itp.
+We wszystkich trzech podstronach (Gracze, Mecze, Raporty) brakuje opcji przejrzenia informacji bez konieczności edycji. Na przykładzie gracza: chcąc przejrzeć informacje o zawodniku (wzrost, rok urodzenia, osiągnięcia, poziom rozgrywek itd.) jednocześnie włącza się edycja zawodnika co może użytkownika aplikacji dezorientować. Dodatkowo "przymusowa" edycja sprawia, że użytkownik może przez przypadek zmienić lub wprowadzić nowe dane o zawodniku, które są błędne itp.
 
 Najmniej intuicyjne jest dodawanie akcji, które miały miejsce podczas meczu (opcja "rozpocznij mecz"). Ze względu na bardziej złożony sposób dodania informacji, użytkownik bez instrukcji może mieć trudności z tą opcją.
+
 <b>5. Błędy</b>
+- Strona główna:
+
+ W okienku aktywność literówka - napisane jest aktywnosć zamiast aktywność.
+ 
+- Dodaj gracza:
+
+pole  "telefon" - brak odpowiedniego formatu pola, można dodać nieskończoną ilość cyfr a także litery.
+
+pole "waga" - brak odpowiedniego formatu pola, możliwość dodania ujemnej masy ciała, można dodać nieskończoną ilość cyfr.
+
+pole "wzrost" - brak odpowiedniego formatu pola, możliwość dodania ujemnego wzrostu, można dodać nieskończoną ilość cyfr.
+
+pole "data urodzenia" - brak ustawionego limitu na realistyczny wiek gracza; można ustawić datę urodzenia na np. 1800 rok a także datę z przyszłości (np. 2024 r.)
+
+opcja "dodaj język" - możliwość dodania kolejnego recordu "Języki", pomimo tego, że wcześniejszy record "Języki" pozostał pusty.
+
+opcja "dodaj link z youtube" - możliwość dodania kolejnego recordu "link do youtube", pomimo tego, że wcześniejszy record "link do youtube" pozostał pusty.
+
+widoczne jest angielskie "submit" i "clear" pomimo wybranego języka polskiego.
+ 
+przycisk "wyczyść" (clear) nie czyści 
 
 
