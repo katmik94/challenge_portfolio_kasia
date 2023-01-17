@@ -20,10 +20,10 @@ Aplikacja służy skautom do przeglądania zawodników i śledzenia ich umiejęt
 - dodanie przebiegu akcji - mało intuicyjna opcja, ikonki są nie podpisane, przy pierwszej próbie dodania akcji nie za bardzo wiadomo jak to zrobić. Dobrą opcją by tu było dodanie instrukcji krok po kroku jak dodać akcję do przebiegu meczu.
 - generowanie raportu i edycja - generowanie raportu jest proste, edycja także. Tutaj opcja dodania raportu nad listą raportów według mnie nie koniecznie jest potrzebna, ponieważ opcja ta odsyła do listy meczów, gdzie raport jest tak na prawdę generowany, wprowadza to w błąd użytkownika.
 - przegląd listy graczy - przegląd jest intuicyjny, dodałabym opcję przechodzenia do konkretnej strony (idź do) listy, co ułatwiłoby jej przeglądanie.
-- sortowanie graczy według poszczególnych kolumn - 
-- generowanie listy graczy do pliku .csv - 
-- drukowanie listy graczy
-- sortowanie po kolumnach tabeli
+- sortowanie graczy według poszczególnych kolumn - opcja sortowania mogłaby być bardziej widoczna, na pierwszy rzut oka wydaje się, że jej w ogóle nie ma. Przydatna mogłaby być też opcja sortowania wg daty dodania gracza do bazy.
+- generowanie listy graczy do pliku .csv - opcja intuicyjna.
+- drukowanie listy graczy - 
+- ustawianie widoku kolumn tabeli -
 - filtrowanie po danych z tabeli - działanie intuicyjne.
 
 <b>3. Interfejs aplikacji</b>
