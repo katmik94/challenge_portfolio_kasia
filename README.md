@@ -6,3 +6,21 @@ Stawiam pierwsze kroki w kierunku zostania testerką i zdecydowałam się na wzi
 
 Moim celem jest wykorzystanie zdobytej podczas projektu wiedzy i powstałego portfolio do stania się w przyszłości zawodowym testerem oprogramowania.
 ## Subtask 4
+Aplikacja
+Funkcjonalności aplikacji:
+- logowanie do systemu oraz wylogowanie się z systemu
+- dodanie gracza
+- edycja gracza 
+- dodanie meczu
+- edycja meczu
+- dodanie przebiegu akcji
+- generowanie raportu i edycja
+- przegląd listy graczy
+- sortowanie graczy według poszczególnych kolumn
+- generowanie listy graczy do pliku .csv
+- drukowanie listy graczy
+- sortowanie po kolumnach tabeli
+- filtrowanie po danych z tabeli
+Interfejs aplikacji
+Intuicyjność aplikacji
+Błędy
