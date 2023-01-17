@@ -90,3 +90,6 @@ Możliwe jest ustawienie więcej niż 4 połów rozgrywki, co nie jest realną i
 
 Opcja sortowania, opcja pobrania CSV, opcja druku, ustawiania widoczności kolumn oraz filtrowanie tabeli są w języku angielskim, pomimo tego, że wybrany jest język polski.
 
+## Subtask 5
+
+Biorę udział w tym subtasku, zostałam dodana do grupy :smile:
