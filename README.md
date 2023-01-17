@@ -43,19 +43,20 @@ We wszystkich trzech podstronach (Gracze, Mecze, Raporty) brakuje opcji przejrze
 Najmniej intuicyjne jest dodawanie akcji, które miały miejsce podczas meczu (opcja "rozpocznij mecz"). Ze względu na bardziej złożony sposób dodania informacji, użytkownik bez instrukcji może mieć trudności z tą opcją.
 
 <b>5. Błędy</b>
-- Strona główna:
+
+- <b>Strona główna: </b>
 
  W okienku aktywność literówka - napisane jest aktywnosć zamiast aktywność.
  
 - Dodaj gracza:
 
-pole  "telefon" - brak odpowiedniego formatu pola, można dodać nieskończoną ilość cyfr a także litery.
+pole  "telefon" - brak odpowiedniego formatu pola, możliwość dodania cyfr bez realnego limitu, możliwość dodania liter.
 
-pole "waga" - brak odpowiedniego formatu pola, możliwość dodania ujemnej masy ciała, można dodać nieskończoną ilość cyfr.
+pole "waga" - brak odpowiedniego formatu pola, możliwość dodania ujemnej masy ciała, możliwość dodania cyfr bez realnego limitu.
 
-pole "wzrost" - brak odpowiedniego formatu pola, możliwość dodania ujemnego wzrostu, można dodać nieskończoną ilość cyfr.
+pole "wzrost" - brak odpowiedniego formatu pola, możliwość dodania ujemnego wzrostu, możliwość dodania cyfr bez realnego limitu.
 
-pole "data urodzenia" - brak ustawionego limitu na realistyczny wiek gracza; można ustawić datę urodzenia na np. 1800 rok a także datę z przyszłości (np. 2024 r.)
+pole "data urodzenia" - brak ustawionego limitu na realny wiek gracza; można ustawić datę urodzenia na np. 1800 rok a także datę z przyszłości (np. 2024 r.)
 
 opcja "dodaj język" - możliwość dodania kolejnego recordu "Języki", pomimo tego, że wcześniejszy record "Języki" pozostał pusty.
 
@@ -63,6 +64,29 @@ opcja "dodaj link z youtube" - możliwość dodania kolejnego recordu "link do y
 
 widoczne jest angielskie "submit" i "clear" pomimo wybranego języka polskiego.
  
-przycisk "wyczyść" (clear) nie czyści 
+- Dodaj mecz:
 
+pole "Zdobyte gole" - brak odpowiedniego formatu pola, możliwość dodania cyfr bez realnego limitu.
+
+pole "Stracone gole" - brak odpowiedniego formatu pola, możliwość dodania cyfr bez realnego limitu.
+
+pole "Czas gry" - brak odpowiedniego formatu pola, możliwość dodania ujemnego czasu gry, możliwość dodania cyfr bez realnego limitu.
+
+pole "Data" - brak odpowiedniego formatu pola, możliwość dodania daty z przyszłości.
+
+- Dodaj raport:
+
+Obowiązek dodania województwa w zakładce Gracz, inaczej raport się nie wygeneruje. Podczas dodawania gracza nie ma informacji, że określenie województwa jest koniecznym działaniem. W raporcie informacja o województwie się nie pojawia, więc ten wymóg wydaje się być niepotrzebny podczas generowanai raportu.
+
+- Edytuj raport:
+
+Pomimo wybranego języka polskiego, przycisk "zapisz" jest w języku angielskim (save).
+
+- Rozpocznij mecz:
+
+Możliwe jest ustawienie więcej niż 4 połów rozgrywki, co nie jest realną ilością połów podczas meczu piłki nożnej (4 z uwzględnieniem dogrywki).
+
+-Gracze:
+
+Opcja sortowania, opcja pobrania CSV, opcja druku, ustawiania widoczności kolumn oraz filtrowanie tabeli są w języku angielskim, pomimo tego, że wybrany jest język polski
 
