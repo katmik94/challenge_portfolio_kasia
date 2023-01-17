@@ -23,7 +23,7 @@ Aplikacja służy skautom do przeglądania zawodników i śledzenia ich umiejęt
 - sortowanie graczy według poszczególnych kolumn - opcja sortowania mogłaby być bardziej widoczna, na pierwszy rzut oka wydaje się, że jej w ogóle nie ma. Przydatna mogłaby być też opcja sortowania wg daty dodania gracza do bazy.
 - generowanie listy graczy do pliku .csv - opcja intuicyjna.
 - drukowanie listy graczy - opcja intuicyjna.
-- ustawianie widoku kolumn tabeli - działanie intuicyjne
+- ustawianie widoku kolumn tabeli - działanie intuicyjne.
 - filtrowanie po danych z tabeli - działanie intuicyjne.
 
 <b>3. Interfejs aplikacji</b>
@@ -44,49 +44,49 @@ Najmniej intuicyjne jest dodawanie akcji, które miały miejsce podczas meczu (o
 
 <b>5. Błędy</b>
 
-- <b>Strona główna: </b>
+<b>Strona główna: </b>
 
  W okienku aktywność literówka - napisane jest aktywnosć zamiast aktywność.
  
-- Dodaj gracza:
+<b>Dodaj gracza:</b>
 
-pole  "telefon" - brak odpowiedniego formatu pola, możliwość dodania cyfr bez realnego limitu, możliwość dodania liter.
+-pole  "telefon" - brak odpowiedniego formatu pola, możliwość dodania cyfr bez realnego limitu, możliwość dodania liter.
 
-pole "waga" - brak odpowiedniego formatu pola, możliwość dodania ujemnej masy ciała, możliwość dodania cyfr bez realnego limitu.
+-pole "waga" - brak odpowiedniego formatu pola, możliwość dodania ujemnej masy ciała, możliwość dodania cyfr bez realnego limitu.
 
-pole "wzrost" - brak odpowiedniego formatu pola, możliwość dodania ujemnego wzrostu, możliwość dodania cyfr bez realnego limitu.
+-pole "wzrost" - brak odpowiedniego formatu pola, możliwość dodania ujemnego wzrostu, możliwość dodania cyfr bez realnego limitu.
 
-pole "data urodzenia" - brak ustawionego limitu na realny wiek gracza; można ustawić datę urodzenia na np. 1800 rok a także datę z przyszłości (np. 2024 r.)
+-pole "data urodzenia" - brak ustawionego limitu na realny wiek gracza; można ustawić datę urodzenia na np. 1800 rok a także datę z przyszłości (np. 2024 r.)
 
-opcja "dodaj język" - możliwość dodania kolejnego recordu "Języki", pomimo tego, że wcześniejszy record "Języki" pozostał pusty.
+-opcja "dodaj język" - możliwość dodania kolejnego recordu "Języki", pomimo tego, że wcześniejszy record "Języki" pozostał pusty.
 
-opcja "dodaj link z youtube" - możliwość dodania kolejnego recordu "link do youtube", pomimo tego, że wcześniejszy record "link do youtube" pozostał pusty.
+-opcja "dodaj link z youtube" - możliwość dodania kolejnego recordu "link do youtube", pomimo tego, że wcześniejszy record "link do youtube" pozostał pusty.
 
-widoczne jest angielskie "submit" i "clear" pomimo wybranego języka polskiego.
+-widoczne jest angielskie "submit" i "clear" pomimo wybranego języka polskiego.
  
-- Dodaj mecz:
+<b>Dodaj mecz: </b>
 
-pole "Zdobyte gole" - brak odpowiedniego formatu pola, możliwość dodania cyfr bez realnego limitu.
+-pole "Zdobyte gole" - brak odpowiedniego formatu pola, możliwość dodania cyfr bez realnego limitu.
 
-pole "Stracone gole" - brak odpowiedniego formatu pola, możliwość dodania cyfr bez realnego limitu.
+-pole "Stracone gole" - brak odpowiedniego formatu pola, możliwość dodania cyfr bez realnego limitu.
 
-pole "Czas gry" - brak odpowiedniego formatu pola, możliwość dodania ujemnego czasu gry, możliwość dodania cyfr bez realnego limitu.
+-pole "Czas gry" - brak odpowiedniego formatu pola, możliwość dodania ujemnego czasu gry, możliwość dodania cyfr bez realnego limitu.
 
-pole "Data" - brak odpowiedniego formatu pola, możliwość dodania daty z przyszłości.
+-pole "Data" - brak odpowiedniego formatu pola, możliwość dodania daty z przyszłości.
 
-- Dodaj raport:
+<b>Dodaj raport:</b>
 
-Obowiązek dodania województwa w zakładce Gracz, inaczej raport się nie wygeneruje. Podczas dodawania gracza nie ma informacji, że określenie województwa jest koniecznym działaniem. W raporcie informacja o województwie się nie pojawia, więc ten wymóg wydaje się być niepotrzebny podczas generowanai raportu.
+Raport się nie wygeneruje jeśli nie ma dodanego województwa w zakładce "Gracz". Podczas dodawania gracza nie ma informacji, że określenie województwa jest koniecznym działaniem. W raporcie informacja o województwie się nie pojawia, więc ten wymóg wydaje się być niepotrzebny podczas generowania raportu.
 
-- Edytuj raport:
+<b>Edytuj raport:</b>
 
 Pomimo wybranego języka polskiego, przycisk "zapisz" jest w języku angielskim (save).
 
-- Rozpocznij mecz:
+<b>Rozpocznij mecz:</b>
 
 Możliwe jest ustawienie więcej niż 4 połów rozgrywki, co nie jest realną ilością połów podczas meczu piłki nożnej (4 z uwzględnieniem dogrywki).
 
--Gracze:
+<b>Gracze:</b>
 
 Opcja sortowania, opcja pobrania CSV, opcja druku, ustawiania widoczności kolumn oraz filtrowanie tabeli są w języku angielskim, pomimo tego, że wybrany jest język polski
 
