@@ -93,3 +93,22 @@ Opcja sortowania, opcja pobrania CSV, opcja druku, ustawiania widoczności kolum
 ## Subtask 5
 
 Biorę udział w tym subtasku, zostałam dodana do grupy :smile:
+
+
+# Task 2
+
+## Subtask 1
+
+Link do pierwszego subtasku:
+
+https://docs.google.com/document/d/1lFrcQnkL0tfQyJOfAip0-ALIMlv22lzf7JPDO7nas9U/edit
+
+## Subtask 2
+
+Link do drugiego subtasku:
+
+https://docs.google.com/document/d/1femvFWpcguYLerf89ZMv0LsAXxImXt-qYEb7O4cGF-Y/edit
+
+## Subtask 3
+
+Przypadki testowe służą do sprawdzenia poprawności działania programu lub aplikacji. Lista przypadków testowych zawiera różne scenariusze, które mają na celu wykrycie błędów lub nieoczekiwanych zachowań w oprogramowaniu. Tworzenie przypadków testowych pozwala na wczesne wykrycie i naprawienie błędów, co zwiększa jakość i niezawodność oprogramowania. Tworzenie przypadków na podstawie kryteriów akceptacji pozwala na zaprojektowanie testów a następnie planów testów nawet, kiedy oprogramowanie nie jest jeszcze dostarczone. Przypadki testowe są również przydatne podczas regresji, ponieważ tworzą "bibliotekę" test case'ów i dzięki temu zmniejszają ryzyko pominięcia jakiegoś testu.
