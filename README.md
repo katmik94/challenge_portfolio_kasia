@@ -120,3 +120,11 @@ https://docs.google.com/document/d/1femvFWpcguYLerf89ZMv0LsAXxImXt-qYEb7O4cGF-Y/
 -Tworzenie przypadków na podstawie kryteriów akceptacji pozwala na zaprojektowanie testów a następnie planów testów, nawet kiedy oprogramowanie nie jest jeszcze dostarczone. 
 
 -Przypadki testowe są również przydatne podczas regresji, ponieważ tworzą "bibliotekę" test case'ów i dzięki temu zmniejszają ryzyko pominięcia jakiegoś testu.
+
+
+# Task 3
+## Subtask 1
+https://docs.google.com/document/d/1CU33KtPIRDph_Q7f0VV5Jb0H80Q40DM_kullRzv86QA/edit?usp=sharing
+
+## Subtask 3
+https://docs.google.com/document/d/1zqHJ6RolKDBCobI3daqani7bshEVXSpNGv9xuvSk-T0/edit?usp=sharing
