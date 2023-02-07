@@ -128,3 +128,20 @@ https://docs.google.com/document/d/1CU33KtPIRDph_Q7f0VV5Jb0H80Q40DM_kullRzv86QA/
 
 ## Subtask 3
 https://docs.google.com/document/d/1zqHJ6RolKDBCobI3daqani7bshEVXSpNGv9xuvSk-T0/edit?usp=sharing
+
+# Task 4
+## Subtask 2
+
+https://docs.google.com/document/d/1bwRSvL8XKG7OYw-j-iOERg3Vu7D6Sr3KDZJCxnZJmRM/edit?usp=sharing
+
+## Subtask 3
+
+<i>1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?</i>
+Aplikacja służy do kupowania lub sprzedaży przez użytkowników produktów nowych lub używanych, często lokalnie. 
+<i>2. Kto ma być użytkownikiem końcowym aplikacji?</i>
+Użytkownikiem końcowym aplikacji głównie jest osoba prywatna, która chce coś sprzedać lub kupić bez dodatkowych opłat.
+<i>3. Czy według Ciebie aplikacja jest user friendly?</i>
+Według mnie aplikacja jest user friendly. Interfejs nie jest skomplikowany, od pierwszego wejścia do aplikacji przemieszczanie się po niej jest dosyć intuicyjne, wiadomo w co gdzie klikać, jak wybierać kategorie, filtrować, jak dodać ogłoszenie, wejść w ustawienia. Przyciski szybkiego dostępu minimalistyczne, dobrze opisane, dobrze dopasowane do mojego telefonu. Ze względu na ograniczoną ilość barw aplikacja jest przyjazna w odbiorze i przejrzysta, uproszczone grafiki również bardzo przyjemne dla oka.
+<i>4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?</i>
+Aplikacja ogólnie bardzo dobrze funkcjonuje i bardzo dobrze się z niej korzysta. Jedną z rzeczy, jaką bym dodała jest możliwość filtrowania ogłoszeń u jednego sprzedawcy. Kiedy osoba sprzedająca ma dużo ofert, filtrowanie bardzo by ułatwiło w szukaniu u niego konkretnej rzeczy lub rzeczy z konkretnej kategorii.
+<i>5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?</i>
