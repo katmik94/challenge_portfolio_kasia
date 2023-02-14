@@ -156,3 +156,39 @@ Aplikacja ogólnie bardzo dobrze funkcjonuje i bardzo dobrze się z niej korzyst
 - Podczas testowania aplikacji internetowej jest możliwość skorzystania z DevTools, które dostarczają duzy zestaw narzędzi do testowania, natomiast przy testowaniu aplikacji natywnej nie ma takich narzędzi
 - Podczas testowania aplikacji natywnej można zmieniać landscape z pionowego na poziomy, natomiast przy testowaniu aplikacji webowej nie ma takiej możliwości
 
+# Task 5
+
+## Subtask 1
+
+<b>Zapytania, które poznałam:</b>
+
+- SELECT
+- FROM
+- GO
+- ON
+- AS
+- CREATE TABLE
+- ORDER BY (ASC, chociaż ono nie jest obowiązkowe)
+- ORDER BY DESC
+- WHERE
+
+<b>Operatory, które poznałam:</b>
+
+![](https://tinypic.host/images/2023/02/14/operatory.png) 
+
+## Subtask 3
+
+<i>1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.</i>
+
+SELECT*FROM actors ORDER BY surname 
+![](https://tinypic.host/images/2023/02/14/1sql1.png) 
+<i>2.Wyświetl film, który powstał w 2019 roku.</i>
+<i>3.Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.</i>
+Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+Wyświetl dane klienta, który nie ma podanego adresu email.
+Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
