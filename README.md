@@ -181,14 +181,59 @@ Aplikacja ogólnie bardzo dobrze funkcjonuje i bardzo dobrze się z niej korzyst
 <i>1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.</i>
 
 SELECT*FROM actors ORDER BY surname 
-![](https://tinypic.host/images/2023/02/14/1sql1.png) 
-<i>2.Wyświetl film, który powstał w 2019 roku.</i>
-<i>3.Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.</i>
-Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
-Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
-Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
-Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
-Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
-Wyświetl dane klienta, który nie ma podanego adresu email.
-Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
 
+![](https://tinypic.host/images/2023/02/14/1sql1.png) 
+
+<i>2.Wyświetl film, który powstał w 2019 roku.</i>
+
+SELECT*FROM movies WHERE year_of_production='2019'
+
+![](https://tinypic.host/images/2023/02/14/1sql2.png) 
+
+<i>3.Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.</i>
+
+SELECT*FROM movies WHERE year_of_production BETWEEN'1900'AND '1999'
+
+![](https://tinypic.host/images/2023/02/14/sql3.png) 
+
+<i>4.Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$</i>
+
+SELECT title,price FROM movies WHERE price<7
+
+![](https://tinypic.host/images/2023/02/14/sql4.png) 
+
+<i>5.Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.</i>
+
+SELECT*FROM actors WHERE actor_id >=4 AND actor_id <=7
+
+![](https://tinypic.host/images/2023/02/14/sql5.png) 
+
+<i> 6.Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.</i>
+
+SELECT * FROM customers WHERE customer_id = 2 OR customer_id=4 OR customer_id=6
+
+![](https://tinypic.host/images/2023/02/14/sql6.png) 
+
+<i> 7.Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN. </i>
+
+SELECT * FROM customers WHERE customer_id IN(1,3,5)
+
+![](https://tinypic.host/images/2023/02/14/sql7.png) 
+
+<i>8.Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.</i>
+
+SELECT * FROM actors WHERE name LIKE 'An%'
+
+![](https://tinypic.host/images/2023/02/14/sql8.png) 
+
+<i>9.Wyświetl dane klienta, który nie ma podanego adresu email.</i>
+
+SELECT * FROM customers WHERE email IS NULL
+
+![](https://tinypic.host/images/2023/02/14/sql9.png) 
+
+<i>10.Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.</i>
+
+SELECT * FROM movies WHERE price>9 and movie_id BETWEEN 2 and 8
+
+![](https://tinypic.host/images/2023/02/14/sql10.png) 
