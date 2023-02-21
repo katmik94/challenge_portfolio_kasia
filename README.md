@@ -319,6 +319,6 @@ Otrzymałam 11/15 punktów.
 
 Link do portfolio
 
-https://github.com/katmik94/Portfolio/blob/main/README.md
+https://github.com/katmik94/Portfolio
 
 
