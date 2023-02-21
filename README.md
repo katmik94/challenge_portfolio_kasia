@@ -171,6 +171,11 @@ Aplikacja ogólnie bardzo dobrze funkcjonuje i bardzo dobrze się z niej korzyst
 - ORDER BY (ASC, chociaż ono nie jest obowiązkowe)
 - ORDER BY DESC
 - WHERE
+- INNER JOIN
+- UPDATE
+- ALTER TABLE
+- UNION
+- INSERT INTO
 
 <b>Operatory, które poznałam:</b>
 
@@ -237,3 +242,80 @@ SELECT * FROM customers WHERE email IS NULL
 SELECT * FROM movies WHERE price>9 and movie_id BETWEEN 2 and 8
 
 ![](https://tinypic.host/images/2023/02/14/sql10.png) 
+
+# Task 6
+
+## Subtask 1
+
+<i> 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd.</i>
+
+UPDATE customers SET surname='Miler' WHERE customer_id=3
+
+![](https://tinypic.host/images/2023/02/21/sql11.png) 
+
+<i> 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej. </i>
+
+SELECT sale.movie_id, customers.name, customers.email FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id WHERE movie_id='4'
+
+![](https://tinypic.host/images/2023/02/21/sql12.png) 
+
+<i>13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com </i>
+
+UPDATE customers SET email = 'pati@mail.com' WHERE customer_id=4
+
+![](https://tinypic.host/images/2023/02/21/sql13.png) 
+
+<i>14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia). </i>
+
+SELECT movies.title, customers.name, customers.surname FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id INNER JOIN movies ON sale.movie_id=movies.movie_id
+
+![](https://tinypic.host/images/2023/02/21/sql14.png) 
+
+<i>15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag </i>
+
+ALTER TABLE customers ADD pseudonym varchar(255);
+
+UPDATE customers SET pseudonym= 'Ols' WHERE customer_id=1; UPDATE customers SET pseudonym= 'Kal' WHERE customer_id=2; UPDATE customers SET pseudonym= 'Anr' WHERE customer_id=3; UPDATE customers SET pseudonym= 'Par' WHERE customer_id=4; UPDATE customers SET pseudonym= 'Mao' WHERE customer_id=5; UPDATE customers SET pseudonym= 'Nag' WHERE customer_id=6
+
+![](https://tinypic.host/images/2023/02/21/sql15.png) 
+
+<i>16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały. </i>
+
+SELECT DISTINCT movies.title FROM sale INNER JOIN movies ON sale.movie_id=movies.movie_id
+
+![](https://tinypic.host/images/2023/02/21/sql16.png) 
+
+<i>17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION) </i>
+
+SELECT name FROM customers UNION SELECT name FROM actors ORDER BY name ASC
+
+![](https://tinypic.host/images/2023/02/21/sql17.png) 
+
+<i>18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).</i>
+
+UPDATE movies SET price=price+2.5 WHERE year_of_production>2000
+
+![](https://tinypic.host/images/2023/02/21/sql18.png) 
+
+<i>19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał </i>
+
+SELECT actors.name, actors.surname, movies.title FROM cast INNER JOIN actors ON actors.actor_id=cast.actor_id INNER JOIN movies ON movies.movie_id=cast.movie_id WHERE cast.actor_id ='4'
+
+![](https://tinypic.host/images/2023/02/21/sql19.png) 
+
+<i>20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa </i>
+
+INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES ('7', 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
+
+![](https://tinypic.host/images/2023/02/21/sql20.png) 
+
+## Subtask 2
+
+Otrzymałam 11/15 punktów.
+
+![](https://tinypic.host/images/2023/02/21/wyniki.png)
+
+## Subtask 3
+
+
+
