@@ -317,5 +317,8 @@ Otrzymałam 11/15 punktów.
 
 ## Subtask 3
 
+Link do portfolio
+
+https://github.com/katmik94/Portfolio/blob/main/README.md
 
 
