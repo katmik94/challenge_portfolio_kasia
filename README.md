@@ -239,7 +239,7 @@ SELECT * FROM customers WHERE email IS NULL
 
 <i>10.Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.</i>
 
-SELECT * FROM movies WHERE price>9 and movie_id BETWEEN 2 and 8
+SELECT * FROM movies WHERE price>9 AND movie_id BETWEEN 2 AND 8
 
 ![](https://i.ibb.co/DK3fJTc/sql10.png)
 
@@ -275,7 +275,7 @@ SELECT movies.title, customers.name, customers.surname FROM sale INNER JOIN cust
 
 ALTER TABLE customers ADD pseudonym varchar(255);
 
-UPDATE customers SET pseudonym= 'Ols' WHERE customer_id=1; UPDATE customers SET pseudonym= 'Kal' WHERE customer_id=2; UPDATE customers SET pseudonym= 'Anr' WHERE customer_id=3; UPDATE customers SET pseudonym= 'Par' WHERE customer_id=4; UPDATE customers SET pseudonym= 'Mao' WHERE customer_id=5; UPDATE customers SET pseudonym= 'Nag' WHERE customer_id=6
+UPDATE customers SET pseudonym=concat(LEFT(name,2),RIGHT(surname,1))
 
 ![](https://tinypic.host/images/2023/02/21/sql15.png) 
 
